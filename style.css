@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.css2{
+    position: fixed;
+    width: 70px;
+    height: 636px;
+    background-color: rgb(2, 2, 66);
+    color: gray;
+    padding: 15px 15px 0px 20px;
+    font-size: 20px;
+}
+#dd{
+    color: white;
+    padding: 10px;
+}
+#css3{
+    padding: 10px;
+}
+#css4{
+    color: white;
+    padding: 10px;
+}
