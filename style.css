@@ -6,7 +6,7 @@
 .css2{
     position: fixed;
     width: 85px;
-    height: 636px;
+    height: 651px;
     background-color: rgb(2, 2, 66);
     color: gray;
     padding: 15px 15px 0px 20px;
@@ -40,8 +40,9 @@
 }
 .task1{
     background-color: whitesmoke;
-    margin-left: 84px;
+    margin-left: 75px;
     display: flex;
+    margin-top: 0px;
     /* margin: 0px;
     padding: 0px; */
 }
@@ -50,27 +51,28 @@
     padding: 20px 0px 20px 0px;
 }
 .task3{
-    display: flex;
-    margin-left: 67%;
+    display:flex;
+    margin-left:61rem;
     padding: 24px 0px 20px 0px;
 }
 .task4{
-    padding: 0px,6px;
-    margin-right: 1rem;
+    padding: 0px,10px;
+    margin-right: 10px;
+    text-align: right;
     /* text-align: left; */
 }
 .task5{
-    padding:0px,6px;
+    padding:5px,5px;
     /* margin: 0px; */
     /* text-align: right; */
 
 }
 #bxs{
-    font-family:box;
-    font-weight: 400px;
+    /* font-family:; */
+    font-weight: 350px;
     font-style: normal;
     font-variant: normal;
-    line-height: 1;
+    padding-right: 8px;
     text-rendering: auto;
     display: inline-block;
     text-transform: none;
@@ -80,7 +82,7 @@
 }
 .task6{
     padding: 0px,6px;
-    margin-left: 10px;
+    margin-right: 12px;
 }
 #bxs1{
     /* padding: 0px,6px; */
@@ -93,7 +95,7 @@
     display: inline-block;
     text-transform: none;
     /* speak: none; */
-    padding-left: 10px;
+    padding-left: 3px;
     -webkit-font-smoothing: antialiased;
 }    
 #bxs2{
@@ -108,7 +110,7 @@
     text-transform: none;
     /* speak: none; */
     -webkit-font-smoothing: antialiased;
-    padding-left: 10px;
+    padding-left: 11px;
 }
 #bxs3{
     font-family: boxicons;
@@ -121,7 +123,7 @@
     text-transform: none;
     /* speak: none; */
     -webkit-font-smoothing: antialiased;
-    padding-left: 10px;
+    padding-left: 11px;
 }
 .cell{
     display: grid;
@@ -336,6 +338,7 @@
 .zip1{
     display: flex;
     grid-template-columns: auto,auto;
+    /* margin-left:px; */
 }
 .to4{
     width: 341px;
@@ -345,16 +348,16 @@
     background-color: rgba(128, 128, 128, 0.121);
     border: 1px solid rgba(128, 128, 128, 0.342);
 }
-.country{
-    margin-left: 19px;
-    text-align: right;
+.Country1{
+    padding-left: 19px;
+    /* margin-left: 20px; */
 }
 .to5{
     width: 342px;
     margin: 20px 0px;
     padding: 5px 5px;
-    margin-left: 20px;
     margin-left: 19px;
+    /* margin-left: 19px; */
     border-radius: 5px;
     background-color: rgba(128, 128, 128, 0.121);
     border: 1px solid rgba(128, 128, 128, 0.342);
@@ -364,7 +367,7 @@
     grid-template-columns: auto;
 }
 .stop2{
-    width: 690px;
+    width: 701px;
     margin: 20px 0px;
     padding: 5px 5px;
     border-radius: 5px;
@@ -386,14 +389,146 @@
     border: 1px solid gainsboro;
 }
 .h3class{
-    padding: 15px;
-    text-align: left;
+    padding-top: 15px;
+    margin-right: 30px;
 }
 .h5class{
-    color: rgba(24, 0, 0, 0.685);
-    font-size: 13px;
-    padding-bottom: 15px;
+    color: rgba(24, 0, 0, 0.705);
+    font-size: 14px;
+    padding-bottom:18px;
+    line-height: 19px;
+    padding-top: 15px;
 }
-
-
-
+.search1{
+    margin-top: -5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.082);
+    width: 310px;
+    font-size: 14px;
+    padding: 8px 0px 8px 8px;
+}
+.search3{
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: auto auto;
+    border: 1px solid rgba(128, 128, 128, 0.507);
+    border-radius: 3px;
+    width: 310px;
+    padding: 8px;
+    padding-bottom: 20px;
+    color: rgba(128, 128, 128, 0.507);
+    font-size: 25px;
+}
+.search4{
+    /* padding: 10px,20px; */
+    padding-top: 8px;
+    padding-right: 20px;
+    line-height: 15px;
+    margin-left: 0px;
+    margin-bottom: -5px;
+}
+.search5{
+    padding-top:15px ;
+    font-size: 12px;
+    width:210px;
+}
+.search6{
+    margin: 0;
+    padding-top: 0px;
+}
+.address0{
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: auto auto;
+    border: 1px solid rgba(128, 128, 128, 0.507);
+    border-radius: 3px;
+    width: 310px;
+    padding-bottom: 5px;
+    padding: 8px;
+    color: rgba(128, 128, 128, 0.507);
+    font-size: 25px;
+}
+.address1{
+    padding-top: 10px;
+    /* margin-left: px; */
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+.address3{
+    padding-top: 10px;
+    font-size: 12px;
+}
+.company1{
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: auto auto;
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 310px;
+    height:110px ;
+    padding: 8px;
+    color: black;
+    font-size: 25px;
+}
+#company2{
+    color: rgb(255, 191, 0);
+}
+.company3{
+    padding-top: 10px;
+    /* margin-top: px; */
+    margin-left: 20px;
+    /* margin-bottom: 10px; */
+}
+.company5{
+    padding-top: 10px;
+    font-size: 14px;
+    font-weight: 600px;
+    margin-bottom: 15px;
+}
+.sales1{
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: auto auto;
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 310px;
+    padding: 8px;
+    color: black;
+    font-size: 25px;
+}
+#sales2{
+    color: red;
+}
+.sales3{
+    margin-left: 10px;
+    padding: 10px;
+}
+.sales4{
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+.system1{
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: auto auto;
+    border: 1px solid rgba(128, 128, 128, 0.507);
+    border-radius: 3px;
+    width: 310px;
+    padding: 8px;
+    color: rgba(128, 128, 128, 0.507);
+    font-size: 25px;
+}
+.system2{
+    margin-left: 10px;
+    padding: 10px;
+}
+.system3{
+    margin-top: 15px;
+    font-size: 13px;
+    font-weight: 400;
+    /* line-height: 12px; */
+   
+}
